@@ -28,7 +28,7 @@ api.post('/phones', function (request, response) {
   // cautam daca exista indexul de pe request.body
   // daca exista actualizam parametrii acestui produs/item
   // salvam in fisier produsele actualizate
-  response.json('Car was saved succesfully');
+  response.json('Phone  was saved succesfully');
 });
 
 api.delete('/phones/:index', function (request, response) {

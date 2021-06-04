@@ -82,5 +82,61 @@
         "weight": "151g",
         "battery": "Li-Po 4080 mAh",
         "price": "629.99 $"
+    },
+    {
+        "id": 7,
+        "name": "Oppo Reno6 Pro+ 5G",
+        "display": "6.55-inch AMOLED(1080x2400,90Hz)",
+        "chipset": "Qualcomm SM8250-AC Snapdragon 870 5G (7 nm)",
+        "cpu":"Octa-core (1x2.4 GHz Kryo 475 Prime & 1x2.2 GHz Kryo 475 Gold & 6x1.8 GHz Kryo 475 Silver)",
+        "ram":"8GB" ,
+        "storage": "128GB",
+        "rear_camera": "12.2MP wide,16MP ultrawide",
+        "front_camera": "8MP",
+        "weight": "151g",
+        "battery": "Li-Po 4080 mAh",
+        "price": "629.99 $"
+    },
+    {
+        "id": 8,
+        "name": "HTC Wildfire E3",
+        "display": "6.52-inch IPS LCD(720x1560,60Hz)",
+        "chipset": "Mediatek MT6762 Helio P22 (12 nm)",
+        "cpu":"Octa-core 1.8 GHz Cortex-A53",
+        "ram":"4GB" ,
+        "storage": "64GB,128GB",
+        "rear_camera": "13MP wide,8MP ultrawide",
+        "front_camera": "13MP",
+        "weight": "186g",
+        "battery": "Li-Po 4000 mAh",
+        "price": "329.99 $"
+    },
+    {
+        "id": 9,
+        "name": "Asus Zenfone 8 Flip",
+        "display": "6.67-inch Super AMOLED(1080x2400,90Hz)",
+        "chipset": "Qualcomm SM8350 Snapdragon 888 5G (5 nm)",
+        "cpu":"Octa-core (1x2.84 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.80 GHz Kryo 680)",
+        "ram":"8GB" ,
+        "storage": "128GB,256GB",
+        "rear_camera": "64MP wide,12MP ultrawide",
+        "front_camera": "60MP",
+        "weight": "230g",
+        "battery": "Li-Po 5000 mAh",
+        "price": "799.00 $"
+    },
+    {
+        "id": 10,
+        "name": "Sony Xperia 1 III",
+        "display": "6.5-inch OLED(1644x3840,120Hz)",
+        "chipset": "Qualcomm SM8350 Snapdragon 888 5G (5 nm)",
+        "cpu":"Octa-core (1x2.84 GHz Kryo 680 & 3x2.42 GHz Kryo 680 & 4x1.80 GHz Kryo 680)",
+        "ram":"12GB" ,
+        "storage": "256GB,512GB",
+        "rear_camera": "12MP wide,12MP ultrawide",
+        "front_camera": "8MP",
+        "weight": "186g",
+        "battery": "Li-Po 4500 mAh",
+        "price": "1299.99 $"
     }
 ]

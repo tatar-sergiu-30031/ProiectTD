@@ -15,31 +15,31 @@
 </head>
 
 <body>
-  <div id="app">
+<div id="app">
 
-    <div class="title">phones</div>
+  <div class="title">Phones HUB</div>
 
-    <p style="text-align: center" v-if="phones.length == 0">No phones found</p>
+  <p style="text-align: center" v-if="phones.length == 0">No phones found</p>
 
-    <ul class="user-list" v-if="phones.length > 0">
-      <li>
-        <div class="user-row-header">
-          <div class="user-name">Name</div>
-          <div class="user-city">Price</div>
-        </div>
-      </li>
+  <ul class="user-list" v-if="phones.length > 0">
+    <li>
+      <div class="user-row-header">
+        <div class="user-name">Name</div>
 
-      <li v-for="car in phones">
-        <div class="">
-          <a :href="'details.html?id='+car.id">{{ car.name }}</a>
-          <span class=""><i>{{ car.price }}</i></span>
-          <button v-on:click="deleteCar(car.id)">Delete</button>
-          <a :href="'update.html?id='+car.id" target="_self">Update</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <script src="src/app.js"></script>
+      </div>
+    </li>
+
+    <li v-for="car in phones">
+      <div class="user-row">
+        <a :href="'details.html?id='+car.id">{{ car.name }}</a>
+        <div class=""><i>{{ car.price }}</i></div>
+        <button v-on:click="deleteCar(car.id)">Delete</button>
+        <a :href="'update.html?id='+car.id" target="_self">Update</a>
+      </div>
+    </li>
+  </ul>
+</div>
+<script src="src/app.js"></script>
 </body>
 
 </html>
