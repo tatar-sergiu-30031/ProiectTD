@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/details.css" />
+    <script type="text/javascript" src="libs/vue.js"></script>
+    <script type="text/javascript" src="libs/axios.js"></script>
+</head>
+
+<body>
+    <a href="index.html">Home</a>
+    <div id="details">
+        <h1>Detalii pentru produsul cu id-ul: {{ id }}</h1>
+        <div class="container">
+            <div class="custom"></div>
+            <div class="label">Name:</div>
+            <div class="value">{{car.name}}</div>
+        </div>
+        <div class="label">Price:</div>
+        <div class="value">{{car.price}}</div>,
+        <div class="label">Display:</div>
+        <div class="value">{{car.display}}</div>,
+        <div class="label">Storage:</div>
+        <div class="value">{{car.storage}}</div>,
+        <div class="label">Ram:</div>
+        <div class="value">{{car.ram}}</div>,
+        <div class="label">Chipset:</div>
+        <div class="value">{{car.chipset}}</div>,
+        <div class="label">CPU:</div>
+        <div class="value">{{car.cpu}}</div>,
+        <div class="label">Weight:</div>
+        <div class="value">{{car.weight}}</div>,
+        <div class="label">Battery:</div>
+        <div class="value">{{car.battery}}</div>,
+        <div class="label">Rear Camera:</div>
+        <div class="value">{{car.rear_camera}}</div>,
+        <div class="label">Front Camera:</div>
+        <div class="value">{{car.front_camera}}</div>
+    </div>
+    </div>
+    <script src="src/details.js"></script>
+</body>
+
+</html>

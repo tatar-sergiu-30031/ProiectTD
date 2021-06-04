@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung Galaxy S21 Ultra",
+        "display": "6.8 inch(1440*3200)",
+        "cpu": "Snapdragon 888",
+        "ram": "16GB",
+        "memory": "512GB",
+        "rear camera": "108MP+10MP+10MP+12MP",
+        "front camera": "40MP",
+        "weight": "227 grams",
+        "price": "1415 $"
+    },
+    {
+        "id": 2,
+        "name": "bmw",
+        "power": "70",
+        "color": "red",
+        "motorizare": "benzina",
+        "capacitateCilindrica": "1200",
+        "descriere": "test",
+        "year": 2020,
+        "price": "5000 EUR"
+    },
+    {
+        "id": 3,
+        "name": "audi",
+        "power": "70",
+        "color": "red",
+        "motorizare": "benzina",
+        "capacitateCilindrica": "1200",
+        "descriere": "test",
+        "year": 2020,
+        "price": "5000 EUR"
+    }
+]
